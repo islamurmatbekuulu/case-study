@@ -16,3 +16,4 @@ plt.axis('off')
 # Çıktıyı kaydet
 output_filename = 'edges_output2.jpg'
 cv2.imwrite(output_filename, laplacian)
+plt.show()
