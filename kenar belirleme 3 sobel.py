@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Görüntüyü yükle
-image = cv2.imread('your_image.jpg', cv2.IMREAD_COLOR)
+image = cv2.imread('image1.jpg', cv2.IMREAD_COLOR)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Sobel kenar dedektörü
